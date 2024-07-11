@@ -1,0 +1,1 @@
+select * from friendly-drake-429109-g7.file_dataset.patient_appointment

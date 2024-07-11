@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: gcp
+    database: friendly-drake-429109-g7  
+    schema: file_dataset  
+    tables:
+      - name: patient_appointment
+        columns: 
+        - name: office_type
+          description: "Classification of the offices"
+          tests:
+              - not_null
+        - name: date_of_birth
+          description: "Patient's date of birth"
+          tests:
+              - not_null

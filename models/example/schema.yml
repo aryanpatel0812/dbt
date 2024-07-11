@@ -1,0 +1,27 @@
+
+version: 2
+
+models:
+    - name: clinic_appointments
+      description: "A starter dbt model"
+      columns:
+          - name: license_number
+            description: "The primary key for this table"
+            tests:
+                - not_null
+
+    - name: hospital_appointments
+      description: "A starter dbt model"
+      columns:
+          - name: license_number
+            description: "The primary key for this table"
+            tests:
+                - not_null
+
+    - name: Medical_center_appointments
+      description: "A starter dbt model"
+      columns:
+          - name: license_number
+            description: "The primary key for this table"
+            tests:
+                - not_null
